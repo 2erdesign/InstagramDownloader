@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="InstagramDownloader.exe" version="1.0.0.3" publicKeyToken="2c08c09356b2624c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="InstagramDownloader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="InstagramDownloader.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InstagramDownloader.exe" size="409600">
+      <assemblyIdentity name="InstagramDownloader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2vIo1aXr1PWCG4BZWW545CFpnMRkaJ3ALa0/7xbP/PU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="appicon.ico" size="460341">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wS1m/CfH7Z04zEZuMeGWtTm7pDd80X8gRuJTNr8FsUc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="32956">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Lx2QDT5lx+7c1Wqh/tzYBPXA0BnrLPfNM0OOuDohl0o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="InstagramDownloader.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ADAM-NOTEBOOK\Adam" issuerKeyHash="82a8f5ddbcb09e30441e25f0064075f447af29f7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3Ged8X+7qiXyYxr5l8QePqdZIWTO4lTemPyIUvPQbOc=</DigestValue></Reference></SignedInfo><SignatureValue>Tn8IoKZA+NN/uhKZNqsYCq0E2H/ubU+3X1qLgGFlmHSVi0TCQPKje6kNm1PKRnpK0i3cSpAByli6PtJpwTNOAG5RG1oHx6tZYO10cJXzyCC8tFaJZhchC5sUDBPqK+fnPYdA7AjMdDeQcOk4BzzHNyQPRTxgGwPQpcmxnwSnwPY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>m+CeUMC3mKO/HsmZMPu9dg094p2ZSJDQIgG+3Iki5f3LAmFO0fhxF2cx2g5wL0cSfCw6b/CNGx8rT8BqdSPNxtHcVMjI/dWab7M9EoWgI0ZszMA/KbXgUZWGBLU9yUfKtF1r+xfNPFonZG9A0Nlhp6i50jCW8/fB5X4h8E/64Gc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e76cd0f35288fc98de54e2ce642159a73e1ec497f91a63f225aabb7ff19d67dc" Description="" Url=""><as:assemblyIdentity name="InstagramDownloader.exe" version="1.0.0.3" publicKeyToken="2c08c09356b2624c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ADAM-NOTEBOOK\Adam</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MExnImi/RpKlIPxfdxdHqi8HWcTvfQabSUcBxM9ZND8=</DigestValue></Reference></SignedInfo><SignatureValue>P8wgdHS8PNBXsn9Q1sIUqUqzl1NZ9DQKUvnRGzF0E7EFXazmjyX5Kl8CnTukLn5wk4XYxdqN5rPipBzJkpb9IJs/AYbdqKzievgtbgj8iKbxws4yvOGaTPEzKI6bNBZEENAdAT21pNXLyiv6jgGN9sn3UkjNESnLx6o36DdsaxY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>m+CeUMC3mKO/HsmZMPu9dg094p2ZSJDQIgG+3Iki5f3LAmFO0fhxF2cx2g5wL0cSfCw6b/CNGx8rT8BqdSPNxtHcVMjI/dWab7M9EoWgI0ZszMA/KbXgUZWGBLU9yUfKtF1r+xfNPFonZG9A0Nlhp6i50jCW8/fB5X4h8E/64Gc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQHSrJpa+mnJpFopktxOuahjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAQQBEAEEATQAtAE4ATwBUAEUAQgBPAE8ASwBcAEEAZABhAG0wHhcNMTQwMjAyMDAxMTEyWhcNMTUwMjAyMDYxMTEyWjAvMS0wKwYDVQQDHiQAQQBEAEEATQAtAE4ATwBUAEUAQgBPAE8ASwBcAEEAZABhAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJvgnlDAt5ijvx7JmTD7vXYNPeKdmUiQ0CIBvtyJIuX9ywJhTtH4cRdnMdoOcC9HEnwsOm/wjRsfK0/AanUjzcbR3FTIyP3Vmm+zPRKFoCNGbMzAPym14FGVhgS1PclHyrRda/sXzTxaJ2RvQNDZYaeoudIwlvP3weV+IfBP+uBnAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfeOYXE7TtokBmnsJnVH5VWCIJuZ8uFQ2P9EwdJ33nX07uNDhWBJOfxWjv1rtFqgN+fc9UcfbWS/pZiEk2AE9k88wRTkSMxrmjTpL9bFzs2JLvvAbggKRz9y1p+OdBfGkZryJ7AQWaX9LWDl5WIo9oW4eIx+eWquRdX7J+econs0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
